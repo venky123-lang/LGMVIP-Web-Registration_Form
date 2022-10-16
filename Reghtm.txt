@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>student Enrollment Form</title>
+    <link type="text/css" rel="stylesheet" href="red.css">
+</head>
+<header>
+    <h1 class="header" align="center">
+        <u>Student Registration Form</u> <br></h1>
+        <div class="logo"><img src="https://upload.wikimedia.org/wikipedia/commons/7/71/V_logo_noir.png" width="350" height="90"></div>
+    </header>
+<body>
+    
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="StudentName">StudentName</label>
+                        <input type="text" name="StudentName" id="StudentName">
+                    </div>
+                    <div>
+                        <label for="Mail">E-Mail</label>
+                        <input type="text" name="Mail" id="Mail">
+                    </div>
+                    <div>
+                        <label for="CollegeName">College Name</label>
+                        <input type="text" name="CollegeName" id="CollegeName">
+                    </div>
+                    <div>
+                        <label for="Skills">Skills(HTML,CSS...)</label>
+                        <input type="text" name="Skills" id="Skills">
+                    </div>
+
+                    <div class="form_action--button">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+
+                <td>
+                    <table class="list" id="storeList">
+                        <thead>
+                            <tr>
+                                <th>StudentName</th>
+                                <th>E-Mail</th>
+                                <th>College Name</th>
+                                <th>Skills</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+    <footer>
+        <h1 class="footh2" align="center">
+            <u>Thank_You For Visiting</u> <br></h1>
+        </footer>
+    <script type="text/javascript" src="red.js"></script>
+</body>
+</html>
